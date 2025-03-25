@@ -40,3 +40,10 @@ a:hover {
     0 0 200px #03e9f4;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
+
+a:nth-child(1) {
+    filter: hue-rotate(270deg);
+}
+a:nth-child(2) {
+    filter: hue-rotate(110deg);
+}
