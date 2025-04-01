@@ -63,3 +63,12 @@ a:nth-child(2) {
     }
 
     
+@keyframes animate1 {
+    0% {
+        left: -100%;
+    }
+
+    50%, 100% {
+        left: 100% 
+    }
+}
