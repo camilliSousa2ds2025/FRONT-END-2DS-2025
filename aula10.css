@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    border: 1px solid rgb(191, 0, 255);
+    background-color: rgb(237, 153, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(174, 0, 255);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 758px) {
+    .container {
+        width: 80%;
+        height: 80vh;
+        border: 1px solid rgb(191, 0, 255);
+        background-color: rgb(138, 171, 241);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
